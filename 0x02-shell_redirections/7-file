@@ -1,5 +1,2 @@
 #!/bin/bash
-#!/bin/bash
-# Create the file and write the content in one step
-echo "Best School" > "*\\'\"Best School\"\\'\*\$\\?\*\*\*\*\:)"
 echo "Best School" > touch "\*\'"Best School"\'\*$\?*****:)"
