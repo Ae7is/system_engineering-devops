@@ -1,4 +1,4 @@
-#!/usr/bin/bash/env bash
+#!/usr/bin/env bash
 #This script displays the phrase "Best School" ten times usin a while loop.
 
 counter=0
