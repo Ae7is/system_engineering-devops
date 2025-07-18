@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script displays the content of the current directory, showing only the part of the name after the first dash (-), excluding hidden files
+
+for file in *; do
+    if [[ $file != .* ]]; then
+        filename=$(basename "$file")
+        part_after_dash=$(echo "$filename" | cut -d'-' -f2-)
+        if [ -z "$part_after_dash" ]; then
+            echo "$filename"
+        else
+            echo "$part_after_dash"
+        fi
+    fi
+done
