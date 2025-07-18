@@ -9,4 +9,3 @@ fi
  echo "Best School"
   counter=$((counter +1));
   done
-echo "Best School"
