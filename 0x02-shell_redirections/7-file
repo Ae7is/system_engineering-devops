@@ -1,2 +1,6 @@
 #!/bin/bash
-echo "Best School" > "*\\'\"Best School\"\\'\*\$\\\?\*\*\*\*\*:)"
+# A shell script that creates a file named exactly *\'"Best School"\'\*$\?*****:), containing the text Best School, and ending with a new line.
+
+# Create the file with the specified name and content
+echo "Best School" > '*\'"Best School"\'\*$\?*****:)'
+
